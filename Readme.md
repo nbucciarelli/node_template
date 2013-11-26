@@ -1,0 +1,3 @@
+- npm install
+- grunt server
+- Open browser to http://localhost:9000

@@ -1,0 +1,56 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'jquery-ui', '--save' ]
+2 info using npm@1.3.7
+3 info using node@v0.10.10
+4 warn package.json nBucciarelli.me@0.0.1 No repository field.
+5 warn package.json nBucciarelli.me@0.0.1 No README data
+6 verbose readDependencies using package.json deps
+7 verbose cache add [ 'jquery-ui', null ]
+8 verbose cache add name=undefined spec="jquery-ui" args=["jquery-ui",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'jquery-ui',
+9 verbose parsed url   path: 'jquery-ui',
+9 verbose parsed url   href: 'jquery-ui' }
+10 silly lockFile 54d470e0-jquery-ui jquery-ui
+11 verbose lock jquery-ui /Users/Nick/.npm/54d470e0-jquery-ui.lock
+12 silly lockFile 54d470e0-jquery-ui jquery-ui
+13 silly lockFile 54d470e0-jquery-ui jquery-ui
+14 verbose addNamed [ 'jquery-ui', '' ]
+15 verbose addNamed [ null, '*' ]
+16 silly lockFile b7077c0a-jquery-ui jquery-ui@
+17 verbose lock jquery-ui@ /Users/Nick/.npm/b7077c0a-jquery-ui.lock
+18 silly addNameRange { name: 'jquery-ui', range: '*', hasData: false }
+19 verbose url raw jquery-ui
+20 verbose url resolving [ 'https://registry.npmjs.org/', './jquery-ui' ]
+21 verbose url resolved https://registry.npmjs.org/jquery-ui
+22 info trying registry request attempt 1 at 23:29:37
+23 http GET https://registry.npmjs.org/jquery-ui
+24 http 404 https://registry.npmjs.org/jquery-ui
+25 silly registry.get cb [ 404,
+25 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R15B03)',
+25 silly registry.get     date: 'Tue, 26 Nov 2013 04:29:38 GMT',
+25 silly registry.get     'content-type': 'application/json',
+25 silly registry.get     'content-length': '52',
+25 silly registry.get     'cache-control': 'must-revalidate' } ]
+26 silly lockFile b7077c0a-jquery-ui jquery-ui@
+27 silly lockFile b7077c0a-jquery-ui jquery-ui@
+28 error 404 'jquery-ui' is not in the npm registry.
+28 error 404 You should bug the author to publish it
+28 error 404
+28 error 404 Note that you can also install from a
+28 error 404 tarball, folder, or http url, or git url.
+29 error System Darwin 13.0.0
+30 error command "node" "/usr/local/bin/npm" "install" "jquery-ui" "--save"
+31 error cwd /Users/Nick/misc_apps/nbucciarelli.me/public
+32 error node -v v0.10.10
+33 error npm -v 1.3.7
+34 error code E404
+35 verbose exit [ 1, true ]
